@@ -1,0 +1,19 @@
+<html>
+<script src="https://maersk--dev05.sandbox.my.site.com/lightning/lightning.out.js">
+
+<script>
+    $Lightning.use("c:TestAuraApp", function() {
+        $Lightning.createComponent("c:testlwcpage", 
+                                   {},
+                                   "lightning",
+                                   function(cmp) {
+                                       console.log("LWC component was created");
+                                       // do some stuff
+                                   }
+                                  );
+    },
+	'https://maersk--dev05.sandbox.my.site.com/lightning/lightning.out.js'
+	);
+    </script>
+
+</html>
